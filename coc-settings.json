@@ -1,0 +1,10 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["python", "vim", "json", "lua"],
+
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.keyMappings": {
+    "<cr>": ["expandable?", "expandOrCollapse", "open"],
+    "v": "open:vsplit"
+  }
+}

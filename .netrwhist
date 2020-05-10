@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='E:/deepLearningProjects/pandas_exercise'
+let g:netrw_dirhist_0='C:/Users'
+let g:netrw_dirhist_9='C:/Users/PC'
+let g:netrw_dirhist_8='E:\deepLearningProjects\car_safety'
+let g:netrw_dirhist_7='E:/nvim-gtk/bin'
+let g:netrw_dirhist_6='C:/Program Files/Microsoft MPI/Bin'
+let g:netrw_dirhist_5='E:\deepLearningProjects\car_safety'
+let g:netrw_dirhist_4='C:/Program Files/Microsoft MPI/Bin'
+let g:netrw_dirhist_3='E:/nvim-gtk/bin'
+let g:netrw_dirhist_2='E:/deepLearningProjects/car_safety'
