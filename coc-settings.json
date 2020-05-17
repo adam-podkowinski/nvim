@@ -6,5 +6,8 @@
   "explorer.keyMappings": {
     "<cr>": ["expandable?", "expandOrCollapse", "open"],
     "v": "open:vsplit"
-  }
+  },
+
+  "suggest.noselect": false,
+  "suggest.triggerAfterInsertEnter": true
 }
