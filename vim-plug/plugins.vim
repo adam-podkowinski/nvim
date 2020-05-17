@@ -67,6 +67,9 @@ Plug 'airblade/vim-rooter'
 "Support for csv files
 Plug 'chrisbra/csv.vim'
 
+"HTML
+Plug 'AndrewRadev/tagalong.vim'
+
 call plug#end()
 
 filetype plugin indent on
