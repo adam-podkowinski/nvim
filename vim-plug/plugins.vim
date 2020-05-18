@@ -3,9 +3,6 @@ call plug#begin('~/.vim/plugged')
 "File manager
 Plug 'preservim/nerdtree'
 
-"Syntax highlighting
-Plug 'sheerun/vim-polyglot'
-
 "Color scheme
 Plug 'kaicataldo/material.vim'
 
@@ -17,8 +14,6 @@ Plug 'tpope/vim-repeat'
 
 "Close buffers with style :)
 Plug 'qpkorr/vim-bufkill'
-
-Plug 'chriskempson/base16-vim'
 
 "Nice status line
 Plug 'vim-airline/vim-airline'
@@ -69,6 +64,7 @@ Plug 'chrisbra/csv.vim'
 
 "HTML
 Plug 'AndrewRadev/tagalong.vim'
+Plug 'gregsexton/MatchTag'
 
 call plug#end()
 

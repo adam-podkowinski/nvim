@@ -1,4 +1,5 @@
 "Sets
+"set shell=pwsh
 set autochdir
 set autoindent
 set background=dark
@@ -31,17 +32,22 @@ set t_Co=256
 set tabstop=4
 set timeoutlen=350
 set updatetime=150
-" Enable folding
-set foldmethod=indent
-set foldlevel=99
+set wrap
+set tl=500
+set ic
+set conceallevel=0
 if has('termguicolors')
     set termguicolors
 endif
+
 syntax on
 
 "lets
 let mapleader = ' '
 let g:python_host_prog='C:\Python27\python.exe'
+let g:indentLine_setConceal = 0
+
 "Autocmd
 autocmd BufWritePre * :%s/\s\+$//e
 au! BufWritePost $MYVIMRC source %
+

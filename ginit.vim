@@ -4,5 +4,5 @@ if exists('g:GtkGuiLoaded')
 	call rpcnotify(1, 'Gui', 'Option', 'Popupmenu', 0)
 endif
 
-GuiFont! FiraCode NF:h16
+GuiFont! FiraCode NF:h15
 GuiTabline 0

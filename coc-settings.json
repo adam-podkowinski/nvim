@@ -1,13 +1,21 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["python", "vim", "json", "lua"],
-
-  "explorer.width": 30,
-  "explorer.icon.enableNerdfont": true,
-  "explorer.keyMappings": {
-    "<cr>": ["expandable?", "expandOrCollapse", "open"],
-    "v": "open:vsplit"
-  },
-
-  "suggest.noselect": false,
-  "suggest.triggerAfterInsertEnter": true
+	"coc.preferences.formatOnSaveFiletypes": ["python", "vim", "json", "lua", "html", "js", "css", "sass", "scss"],
+	"explorer.width": 30,
+	"explorer.icon.enableNerdfont": true,
+	"explorer.keyMappings": {
+		"<cr>": ["expandable?", ["expanded?", "collapse", "expand"], "open"],
+		"v": "open:vsplit"
+	},
+	"suggest.noselect": false,
+	"suggest.triggerAfterInsertEnter": true,
+	"emmet.syntaxProfiles": {
+		"html": {
+			"attr_quotes": "single"
+		}
+	},
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
+	"prettier.singleQuote": true,
+	"prettier.trailingComma": "es5",
+	"prettier.printWidth": 120
 }
