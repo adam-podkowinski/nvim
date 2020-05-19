@@ -6,3 +6,4 @@ endif
 
 GuiFont! FiraCode NF:h15
 GuiTabline 0
+GuiLinespace 3
