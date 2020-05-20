@@ -1,9 +1,8 @@
 "Sets
-"set shell=pwsh
+set so=2
 set autochdir
 set autoindent
 set background=dark
-set clipboard=unnamedplus
 set cmdheight=2
 set cursorline
 set encoding=UTF-8
@@ -45,9 +44,3 @@ syntax on
 "lets
 let mapleader = ' '
 let g:python_host_prog='C:\Python27\python.exe'
-let g:indentLine_setConceal = 0
-
-"Autocmd
-autocmd BufWritePre * :%s/\s\+$//e
-au! BufWritePost $MYVIMRC source %
-

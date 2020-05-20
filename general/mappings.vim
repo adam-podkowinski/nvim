@@ -1,3 +1,5 @@
+noremap <S-Insert> "+p
+noremap <C-S-Insert> "+y
 nnoremap <Leader>z :noh<CR>
 nnoremap <TAB> :bnext<CR>
 nnoremap <S-TAB> :bprevious<CR>
@@ -17,8 +19,6 @@ noremap <silent> <C-Up> :resize +3<CR>
 noremap <silent> <C-Down> :resize -3<CR>
 
 nnoremap <C-c> :BD!<CR>
-
-cnoremap W w
 
 "Coc mappings and tab out
 " use <tab> for trigger completion and navigate to the next complete item
@@ -45,3 +45,7 @@ function! InsertMapForEnter()
         return "\<CR>"
     endif
 endfunction
+
+"Autocmd
+autocmd BufWritePre * :%s/\s\+$//e
+au! BufWritePost $MYVIMRC source %

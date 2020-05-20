@@ -33,7 +33,7 @@ Plug 'junegunn/gv.vim'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " Better Visual Guide
-Plug 'Yggdroot/indentLine'
+Plug 'thaerkh/vim-indentguides'
 
 "Icons
 Plug 'ryanoasis/vim-devicons'
@@ -50,6 +50,9 @@ Plug 'preservim/nerdcommenter'
 "Python running with good env
 Plug 'cjrh/vim-conda'
 
+"Django
+Plug 'jmcomets/vim-pony'
+
 "Motion
 Plug 'unblevable/quick-scope'
 Plug 'easymotion/vim-easymotion'
@@ -65,6 +68,10 @@ Plug 'chrisbra/csv.vim'
 "HTML
 Plug 'AndrewRadev/tagalong.vim'
 Plug 'gregsexton/MatchTag'
+
+"SASS
+Plug 'AtsushiM/sass-compile.vim'
+Plug 'AtsushiM/search-parent.vim'
 
 call plug#end()
 

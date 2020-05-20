@@ -7,6 +7,9 @@ nmap <F2> <Plug>(coc-rename)
 inoremap <silent><expr> <c-space> coc#refresh()
 "CocExplore
 nmap <Leader>f :CocCommand explorer --preset floating<CR>
+"nmap <Leader>x :execute 'CocCommand explorer ' getcwd()<CR>
+nmap <Leader><Leader> ::execute 'CocCommand explorer ' getcwd()<CR>
+autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 
 let g:coc_explorer_global_presets = {
 \   '.vim': {
