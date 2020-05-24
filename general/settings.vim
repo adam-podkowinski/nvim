@@ -19,6 +19,7 @@ set noshowmatch
 set noshowmode
 set noswapfile
 set nowritebackup
+set relativenumber
 set number
 set pumheight=10
 set ruler

@@ -1,5 +1,17 @@
 {
-	"coc.preferences.formatOnSaveFiletypes": ["python", "vim", "json", "lua", "html", "js", "css", "sass", "scss"],
+	"coc.preferences.formatOnSaveFiletypes": [
+		"python",
+		"vim",
+		"json",
+		"lua",
+		"html",
+		"js",
+		"css",
+		"sass",
+		"scss",
+		"htmldjango"
+	],
+
 	"explorer.width": 30,
 	"explorer.icon.enableNerdfont": true,
 	"explorer.keyMappings": {
@@ -14,6 +26,12 @@
 			"self_closing_tag": "xhtml"
 		}
 	},
+
+	"emmet.includeLanguages": {
+		"htmldjango": "html"
+	},
+
+	"html.format.enable": true,
 
 	"prettier.useTabs": true,
 	"prettier.tabWidth": 4,

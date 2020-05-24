@@ -52,6 +52,8 @@ Plug 'cjrh/vim-conda'
 
 "Django
 Plug 'jmcomets/vim-pony'
+Plug 'tweekmonster/django-plus.vim'
+Plug 'lambdalisue/vim-django-support'
 
 "Motion
 Plug 'unblevable/quick-scope'

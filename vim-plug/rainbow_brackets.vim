@@ -4,6 +4,7 @@ let g:rainbow_conf = {
         \	'separately': {
         \		'html': {
         \           'parentheses': ['start=/(/ end=/)/ fold', 'start=/\[/ end=/\]/ fold', 'start=/\v\{\ze[^-]/ end=/}/ fold'],
-        \       }
+        \       },
+        \		'htmldjango': 0
         \	}
 		\}

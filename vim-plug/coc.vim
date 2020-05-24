@@ -19,3 +19,4 @@ let g:coc_explorer_global_presets = {
 \      'position': 'floating',
 \   }
 \ }
+

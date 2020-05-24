@@ -1,5 +1,6 @@
 source $HOME\AppData\Local\nvim\general\settings.vim
 source $HOME\AppData\Local\nvim\general\mappings.vim
+source $HOME\AppData\Local\nvim\general\autocommands.vim
 source $HOME\AppData\Local\nvim\vim-plug\plugins.vim
 source $HOME\AppData\Local\nvim\view\theme.vim
 source $HOME\AppData\Local\nvim\view\syntax.vim
@@ -13,5 +14,6 @@ source $HOME\AppData\Local\nvim\vim-plug\easymotion.vim
 source $HOME\AppData\Local\nvim\vim-plug\vimrooter.vim
 source $HOME\AppData\Local\nvim\vim-plug\nerdtree.vim
 source $HOME\AppData\Local\nvim\vim-plug\indentguides.vim
+source $HOME\AppData\Local\nvim\vim-plug\djangoplus.vim
 
 luafile ~/AppData/Local/nvim/lua/plug-colorizer.lua
