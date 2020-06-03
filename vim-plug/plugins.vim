@@ -44,7 +44,7 @@ Plug 'luochen1990/rainbow'
 "Auto completion and IDE functions
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-"Faster comments
+"Faster and prettier comments
 Plug 'preservim/nerdcommenter'
 
 "Python running with good env
@@ -74,6 +74,9 @@ Plug 'gregsexton/MatchTag'
 "SASS
 Plug 'AtsushiM/sass-compile.vim'
 Plug 'AtsushiM/search-parent.vim'
+
+"Dart and flutter
+Plug 'dart-lang/dart-vim-plugin'
 
 call plug#end()
 

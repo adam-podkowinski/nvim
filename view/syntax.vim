@@ -7,4 +7,8 @@ syn region  djangovariablemarkers start="{%" end="%}"
 command! -nargs=+ HiLink hi def link <args>
 HiLink djangotagmarkers PreProc
 HiLink djangovariablemarkers PreProc
+
+highlight link dartTypedef dartStatement
+highlight link dartClassDecl dartStatement
+
 delcommand HiLink

@@ -9,7 +9,8 @@
 		"css",
 		"sass",
 		"scss",
-		"htmldjango"
+		"htmldjango",
+		"dart"
 	],
 
 	"explorer.width": 30,
@@ -38,5 +39,6 @@
 	"prettier.singleQuote": true,
 	"prettier.trailingComma": "es5",
 	"prettier.printWidth": 120,
-	"python.linting.pylintArgs": ["--load-plugins=pylint_django"]
+	"python.linting.pylintArgs": ["--load-plugins=pylint_django"],
+	"codeLens.enable": true
 }

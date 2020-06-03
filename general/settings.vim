@@ -1,4 +1,5 @@
 "Sets
+set softtabstop=4
 set so=2
 set autochdir
 set autoindent
