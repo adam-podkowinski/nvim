@@ -3,7 +3,7 @@ call plug#begin('~/.vim/plugged')
 "File manager
 Plug 'preservim/nerdtree'
 
-"Color scheme
+"Color theme
 Plug 'kaicataldo/material.vim'
 
 "Faster surround with quotes or brackets
@@ -77,6 +77,15 @@ Plug 'AtsushiM/search-parent.vim'
 
 "Dart and flutter
 Plug 'dart-lang/dart-vim-plugin'
+
+"Snippets
+Plug 'honza/vim-snippets'
+
+"Multiple cursors
+Plug 'terryma/vim-multiple-cursors'
+
+"Folds
+Plug 'Konfekt/FastFold'
 
 call plug#end()
 

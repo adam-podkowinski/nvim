@@ -34,11 +34,11 @@
 
 	"html.format.enable": true,
 
-	"prettier.useTabs": true,
-	"prettier.tabWidth": 4,
+	"prettier.tabWidth": 2,
 	"prettier.singleQuote": true,
 	"prettier.trailingComma": "es5",
 	"prettier.printWidth": 120,
 	"python.linting.pylintArgs": ["--load-plugins=pylint_django"],
-	"codeLens.enable": true
+	"codeLens.enable": true,
+	"flutter.provider.enableSnippet": true
 }

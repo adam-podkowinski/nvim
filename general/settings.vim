@@ -1,7 +1,7 @@
-"Sets
+set foldmethod=syntax
+set foldlevel=99
 set softtabstop=4
 set so=2
-set autochdir
 set autoindent
 set background=dark
 set cmdheight=2
@@ -9,7 +9,6 @@ set cursorline
 set encoding=UTF-8
 set expandtab
 set fileencoding=utf-8
-set formatoptions-=cro
 set hidden
 set iskeyword+=-
 set laststatus=2

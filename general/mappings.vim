@@ -33,6 +33,8 @@ inoremap <silent><expr> <Tab>
 
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
+autocmd Filetype dart nnoremap <F9> :CocCommand flutter.run<CR>
+
 inoremap <expr> <CR> InsertMapForEnter()
 function! InsertMapForEnter()
     if pumvisible()
@@ -40,6 +42,8 @@ function! InsertMapForEnter()
     elseif strcharpart(getline('.'),getpos('.')[2]-1,1) == '}'
         return "\<CR>\<Esc>O"
     elseif strcharpart(getline('.'),getpos('.')[2]-1,2) == '</'
+        return "\<CR>\<Esc>O"
+    elseif strcharpart(getline('.'),getpos('.')[2]-1,2) == '),'
         return "\<CR>\<Esc>O"
     else
         return "\<CR>"

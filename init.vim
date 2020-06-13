@@ -16,5 +16,6 @@ source $HOME\AppData\Local\nvim\vim-plug\nerdtree.vim
 source $HOME\AppData\Local\nvim\vim-plug\indentguides.vim
 source $HOME\AppData\Local\nvim\vim-plug\djangoplus.vim
 source $HOME\AppData\Local\nvim\vim-plug\dart.vim
+source $HOME\AppData\Local\nvim\vim-plug\folds.vim
 
 luafile ~/AppData/Local/nvim/lua/plug-colorizer.lua
