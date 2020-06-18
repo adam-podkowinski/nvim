@@ -6,7 +6,8 @@ nnoremap <S-TAB> :bprevious<CR>
 nnoremap <c-u> viwU<Esc>
 nnoremap <Leader><c-u> viwu<Esc>
 
-tnoremap <Esc> <C-\><C-n>
+au TermOpen * tnoremap <Esc> <c-\><c-n>
+au FileType fzf tnoremap <Esc> <c-c>
 
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
